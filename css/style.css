@@ -3,3 +3,26 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+h1 {
+  font: 25px "Calibri Light";
+  text-align: center;
+  padding: 10px;
+}
+
+.block {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #666;
+  border-radius: 5px;
+  background: #c9c9c9;
+  text-align: center;
+  font-family: "tahoma";
+}
+.block > button {
+  padding: 10px;
+  background: #333;
+  color: #fff;
+  outline: none;
+  border: none;
+}
